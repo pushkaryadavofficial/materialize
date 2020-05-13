@@ -20,24 +20,24 @@
 <section class="coffee_navbar">
   <nav class="nav-fixed">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">CafeKing</a>
+      <a href="#" class="brand-logo" style="padding-left: 2em;">CafeKing</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#" onclick="togglemodal();">Home</a></li>
-        <li><a href="#" onclick="togglemodal();">About Us</a></li>
-        <li><a href="#" onclick="togglemodal();">Coffee</a></li>
-        <li><a href="#" onclick="togglemodal();">Surprise!</a></li>
-        <li><a href="#" onclick="togglemodal();">Contact</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">contacts</i>About Us</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">stars</i>Coffee</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">cake</i>Surprise!</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">call</i>Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="#" onclick="togglemodal();">Home</a></li>
-    <li><a href="#" onclick="togglemodal();">About Us</a></li>
-    <li><a href="#" onclick="togglemodal();">Coffee</a></li>
-    <li><a href="#" onclick="togglemodal();">Surprise!</a></li>
-    <li><a href="#" onclick="togglemodal();">Contact</a></li>  </ul>
+    <li><a href="#" onclick="togglemodal();"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">contacts</i>About Us</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">stars</i>Coffee</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">cake</i>Surprise!</a></li>
+        <li><a href="#" onclick="togglemodal();"><i class="material-icons left">call</i>Contact</a></li>
 </section>
 <!-- slider -->
 <section class="coffee_carousel">
@@ -143,12 +143,12 @@
     </div>
 </section>
 <!-- about us -->
-<section class="coffee_about">
+<section class="coffee_about" id="aboutus">
   <div class="section center white">
     <div class="row container">
       <h2 class="header">About Us</h2>
       <p class="grey-text text-darken-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officia ipsam ea eius repellendus eum enim? Adipisci inventore error qui odio ex magni quo, vero doloribus quasi placeat saepe dolorum laborum sequi eveniet, voluptate, consectetur, culpa corporis nobis labore suscipit! Nam corporis nemo suscipit blanditiis inventore quidem explicabo cupiditate neque, ex incidunt fuga, est, voluptatem repellendus rem veniam? Alias saepe, excepturi odit ullam eum, debitis numquam ut fuga ducimus officia. Doloribus aspernatur reprehenderit consequatur voluptate quos eaque doloremque quasi nemo commodi, itaque officia adipisci officiis error animi fugit, distinctio dolor laborum, odit expedita laboriosam. Et, porro animi possimus molestiae iste.</p>
-      <a href="#" class="btn waves-effect waves-light" style="background: #6f4037 !important;" onclick="togglemodal();">Read more</a>
+      <a href="#aboutus" class="btn waves-effect waves-light" style="background: #6f4037 !important;" onclick="togglemodal();">Read more</a>
     </div>
   </div>
 </section>
@@ -273,14 +273,16 @@
         <div class="col l6 m6 s12">
           <h4 class="white-text">Contact us</h4>
           <p class="grey-text">
+            <i class="material-icons">location_on</i>
             ABC 507,Delhi India
           </p>
           <p class="grey-text">
+            <i class="material-icons">call</i>
             +9199999999
           </p>
         </div>
         <div class="col l6 m6 s12">
-          <h4 class="white-text">Contact us</h4>
+          <h4 class="white-text">Social media</h4>
           <ul>
             <li><a href="#" class="grey-text">Facebook</a></li>
             <li><a href="#" class="grey-text">Instagram</a></li>
@@ -291,10 +293,10 @@
     </div>
     <div class="row footer-two">
         <div class="col l6 m6 s12">
-          <p class="white-text">&copy; CafeKing</p>
+          <p class="white-text">&copy; CafeKing 2020</p>
         </div>
         <div class="col l6 m6 s12">
-          <p class="white-text">Designed by Pushkar Yadav (LCO team)</p>
+          <p class="white-text right">Designed by Pushkar Yadav (LCO team)</p>
         </div>
       </div>
   </footer>
